@@ -6,15 +6,16 @@ body {
 }
 
 header {
-    background-color: #111;
+    background-color: #636dfa;
     color: #fff;
     text-align: left;
-    padding: 1em;
+    padding: 2em;
 }
 subheader {
             background-color: #f4f4f4;
             padding: 20px;
             text-align: left;
+            padding: 2em;
         }
 section {
     text-align: center;
