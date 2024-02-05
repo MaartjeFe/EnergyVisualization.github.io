@@ -8,7 +8,7 @@ body, h1, h2, p, ul, li {
 body {
     font-family: Noto Sans, sans-serif;
     line-height: 1.6;
-    background-color: #fff;
+    background-color: #f0f0f0;
 }
 
 header, nav, main, footer {
@@ -19,10 +19,9 @@ header, nav, main, footer {
 
 header {
     background-color: #636dfa;
-    color: #fff;
+    color: #f0f0f0;
     text-align: left;
-    padding: 20px 0;
-    margin-left: 20px;
+    padding: 20px 2em;
 }
 
 nav ul {
@@ -46,7 +45,7 @@ main section {
 
 footer {
     background-color: #636dfa;
-    color: #fff;
+    color: #f0f0f0;
     text-align: center;
     clear: both;
 }
