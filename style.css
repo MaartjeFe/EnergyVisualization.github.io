@@ -18,9 +18,9 @@ header, nav, main, footer {
 }
 
 header {
-    background-color: #333;
+    background-color: #636dfa;
     color: #fff;
-    text-align: center;
+    text-align: left;
 }
 
 nav ul {
@@ -43,7 +43,7 @@ main section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #636dfa;
     color: #fff;
     text-align: center;
     clear: both;
