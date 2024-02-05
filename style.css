@@ -8,10 +8,14 @@ body {
 header {
     background-color: #333;
     color: #fff;
-    text-align: center;
+    text-align: left;
     padding: 1em;
 }
-
+subheader {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: left;
+        }
 section {
     text-align: center;
     margin: 2em;
