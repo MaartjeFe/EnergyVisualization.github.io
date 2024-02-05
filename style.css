@@ -6,9 +6,9 @@ body, h1, h2, p, ul, li {
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Noto Sans, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #fff;
 }
 
 header, nav, main, footer {
@@ -21,6 +21,8 @@ header {
     background-color: #636dfa;
     color: #fff;
     text-align: left;
+    padding: 20px 0;
+    margin-left: 20px;
 }
 
 nav ul {
