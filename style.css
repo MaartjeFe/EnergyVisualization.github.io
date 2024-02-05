@@ -1,33 +1,50 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header, nav, main, footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
 header {
-    background-color: #636dfa;
+    background-color: #333;
     color: #fff;
-    text-align: left;
-    padding: 2em;
-    margin-left: 20px;
-}
-subheader {
-            background-color: #f4f4f4;
-            text-align: left;
-            padding: 20px 4em;
-        }
-section {
     text-align: center;
-    margin: 2em;
-    margin-left: 20px;
 }
 
-button {
-    padding: 0.5em 1em;
-    font-size: 1em;
-    background-color: #007bff;
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
     color: #fff;
-    border: none;
-    cursor: pointer;
+    text-align: center;
+    clear: both;
 }
