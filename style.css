@@ -10,16 +10,19 @@ header {
     color: #fff;
     text-align: left;
     padding: 2em;
+    margin-left: 20px;
 }
 subheader {
             background-color: #f4f4f4;
             padding: 20px;
             text-align: left;
             padding: 2em;
+            margin-left: 20px;
         }
 section {
     text-align: center;
     margin: 2em;
+    margin-left: 20px;
 }
 
 button {
