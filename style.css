@@ -22,6 +22,7 @@ header {
     color: #f0f0f0;
     text-align: left;
     padding: 20px 2em;
+    padding-left: 2em; /* Add left padding */
 }
 
 nav ul {
