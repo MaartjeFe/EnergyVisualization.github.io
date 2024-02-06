@@ -1,20 +1,38 @@
-// Get the button and popup
-var button = document.getElementById("infoButton");
-var popup = document.getElementById("popup");
+// Get the buttons and popups
+var button1 = document.getElementById("infoButton1");
+var popup1 = document.getElementById("popup1");
+var button2 = document.getElementById("infoButton2");
+var popup2 = document.getElementById("popup2");
 
-// When the user clicks the button, open the popup
-button.onclick = function() {
-  popup.style.display = "block";
+// Function to open the popup when the corresponding button is clicked
+function openPopup(button, popup) {
+  button.onclick = function() {
+    popup.style.display = "block";
+  }
 }
 
-// When the user clicks on <span> (x), close the popup
-document.getElementsByClassName("close")[0].onclick = function() {
-  popup.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the popup, close it
-window.onclick = function(event) {
-  if (event.target == popup) {
+// Function to close the popup when the close button is clicked
+function closePopup(popup) {
+  popup.getElementsByClassName("close")[0].onclick = function() {
     popup.style.display = "none";
   }
 }
+
+// Function to close the popup when clicking outside of it
+function closePopupOutside(popup) {
+  window.onclick = function(event) {
+    if (event.target == popup) {
+      popup.style.display = "none";
+    }
+  }
+}
+
+// Open and close popups for button 1
+openPopup(button1, popup1);
+closePopup(popup1);
+closePopupOutside(popup1);
+
+// Open and close popups for button 2
+openPopup(button2, popup2);
+closePopup(popup2);
+closePopupOutside(popup2);
