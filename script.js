@@ -12,8 +12,6 @@ var popup4 = document.getElementById("popup4");
 var button5 = document.getElementById("infoButton5");
 var popup5 = document.getElementById("popup5");
 
-// JavaScript for moving the popup (optional)
-var popup = document.getElementById("popup");
 
 
 // Function to open the popup when the corresponding button is clicked
@@ -65,8 +63,4 @@ closePopupOutside(popup5);
 // Close popup2 when clicking outside of it
 closePopupOutside(popup2);
 
-document.addEventListener("mousemove", function(event) {
-    popup.style.left = (event.clientX + 10) + "px"; // Adjust as needed
-    popup.style.top = (event.clientY + 10) + "px"; // Adjust as needed
-});
 
