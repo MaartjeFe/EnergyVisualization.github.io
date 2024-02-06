@@ -52,7 +52,7 @@ footer {
 }
 
 /* Information button styles */
-button#infoButton {
+.info-button {
   background-color: transparent;
   border: none;
   color: #337ab7; /* Blue color */
