@@ -66,7 +66,7 @@ footer {
 /* Popup styles */
 .popup {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
+  position: absolute; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
@@ -85,7 +85,10 @@ footer {
   width: 80%; /* Could be more or less, depending on screen size */
   border-radius: 10px;
 }
-
+/* You may need to adjust this depending on your layout */
+.main {
+    position: relative;
+}
 /* Close button */
 .close {
   color: #aaa;
