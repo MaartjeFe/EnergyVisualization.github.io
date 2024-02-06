@@ -8,7 +8,9 @@ var popup3 = document.getElementById("popup3");
 // Get the fourth button and popup
 var button4 = document.getElementById("infoButton4");
 var popup4 = document.getElementById("popup4");
-
+// Get the fifth button and popup
+var button5 = document.getElementById("infoButton5");
+var popup5 = document.getElementById("popup5");
 // Function to open the popup when the corresponding button is clicked
 function openPopup(button, popup) {
   button.onclick = function() {
@@ -50,5 +52,10 @@ closePopupOutside(popup3);
 openPopup(button4, popup4);
 closePopup(popup4);
 closePopupOutside(popup4);
+// Open and close popups for the fifth button
+openPopup(button5, popup5);
+closePopup(popup5);
+closePopupOutside(popup5);
+
 // Close popup2 when clicking outside of it
 closePopupOutside(popup2);
