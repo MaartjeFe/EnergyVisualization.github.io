@@ -1,5 +1,5 @@
 // Get the button and popup
-var button = document.getElementById("popupButton");
+var button = document.getElementById("infoButton");
 var popup = document.getElementById("popup");
 
 // When the user clicks the button, open the popup
