@@ -8,7 +8,7 @@ body, h1, h2, p, ul, li {
 body {
     font-family: Noto Sans, sans-serif;
     line-height: 1.6;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 header, nav, main, footer {
@@ -19,7 +19,7 @@ header, nav, main, footer {
 
 header {
     background-color: #636dfa;
-    color: #f0f0f0;
+    color: #ffffff;
     text-align: left;
     padding: 20px 2em;
     padding-left: 2em; /* Add left padding */
@@ -46,7 +46,7 @@ main section {
 
 footer {
     background-color: #636dfa;
-    color: #f0f0f0;
+    color: #ffffff;
     text-align: center;
     clear: both;
 }
