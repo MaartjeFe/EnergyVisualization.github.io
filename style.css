@@ -65,7 +65,7 @@ footer {
 
 /* Popup styles */
 .popup {
-  position: absolute; /* Stay in place */
+  position: relative; /* Stay in place */
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
