@@ -45,7 +45,14 @@ nav ul li a {
     color: #333;
     margin-left: 20px; /* Add left margin for indentation */
 }
+ul {
+    list-style-type: none;
+    padding-left: 0; /* Remove default padding */
+}
 
+ul li {
+    margin-left: 20px; /* Add left margin for indentation */
+}
 main section {
     margin-bottom: 20px;
     width: 85%;
