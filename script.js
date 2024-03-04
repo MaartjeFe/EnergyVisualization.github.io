@@ -11,6 +11,10 @@ var popup4 = document.getElementById("popup4");
 // Get the fifth button and popup
 var button5 = document.getElementById("infoButton5");
 var popup5 = document.getElementById("popup5");
+// Get the fifth button and popup
+var button6 = document.getElementById("infoButton6");
+var popup6 = document.getElementById("popup6");
+
 
 // Function to open the popup when the corresponding button is clicked
 function openPopup(button, popup) {
@@ -59,3 +63,7 @@ closePopupOutside(popup4);
 openPopup(button5, popup5);
 closePopup(popup5);
 closePopupOutside(popup5);
+// Open and close popups for the fifth button
+openPopup(button6, popup6);
+closePopup(popup6);
+closePopupOutside(popup6);
