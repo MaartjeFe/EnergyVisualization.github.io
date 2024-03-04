@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solar PV Curtailment Tool</title>
+    <title>Rooftop Solar Curtailment Explorer </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,8 +24,8 @@
     
     <main>
         <section>
-            <p><strong>Institute for Sustainable Futures</strong>, User group testing March 2024 </p>
-            <p><strong>Not for distribution! </strong></p>
+            <p><strong>Institute for Sustainable Futures</strong>, Final prototype March 2024 </p>
+            <p><strong></strong></strong></p>
             <p><strong>Disclaimer:</strong> This webpage contains modelled beta testing data regarding the relationship between solar uptake and customer curtailment in Endeavour Energy’s network. It has not yet been cross-checked for accuracy and is provided to stakeholders for testing and shaping the design of the visualisation tool. Please do not share the page outside the testing group. </p>
             <br>
         </section>    
@@ -35,14 +35,14 @@
         </section>
         
         <section id="Exploring Curtailment"> 
-            <h2>Exploring curtailment <button id="infoButton1" class="info-button">&#9432;</button> </h2>
-
+            <h2>Impact on the grid <button id="infoButton1" class="info-button">&#9432;</button> </h2>
+            <p>Explore the demand in a greenfield residential area with very high solar penetration in northwest Sydney. Can you observe where reverse power flows began to occur?</p>
             <iframe src="Visual1b.html" width="85%" height="700px" frameborder="0"></iframe>
             
             <div id="popup1" class="popup">
               <div class="popup-content">
                 <span class="close">&times;</span>
-                <p> Info 1.</p>
+                <p> Substation load curves shown are the most extreme minimum demand day of the year, which generally occur in spring when energy demand is low and solar production is high.</p>
               </div>
             </div>
         </section>
@@ -55,8 +55,7 @@
         <div id="popup2" class="popup">
           <div class="popup-content">
             <span class="close">&times;</span>
-            <p>Particularly when these reverse power flows occur,   as shown in the animation, this can induce spikes in voltage, which are kept between specific bounds to avoid damaging customer appliances and equipment. If the voltage deviates from the acceptable range, solar systems are programmed to power off completely (or 'trip’), leading to a total loss of the customer’s solar generation. To prevent such ‘unplanned’ issues and to ensure fair access to grid exports, networks are beginning to send signals to temporarily reduce the power output from rooftop solar. This means that customers’ exports (which typically attract a feed-in tariff of around 6c/kWh) are reduced, rather than switching off the whole system, which also loses the solar that households are self-consuming (typically worth the full retail value of around 30c/kWh). Both situations are referred to as ‘curtailment’ of solar PV.
-This curtailment due to network limitations is considered ‘technical’ curtailment. But ‘economic’ curtailment can also occur, when the energy market has an oversupply of power and prices become negative, incentivising generators to switch off. This is common for larger scale solar and wind farms (see sister UNSW tool) but will increasingly become an option for rooftop solar.</p>
+            <p>Map shows the proportion of street-level distribution substations (green electrical boxes next to the footpath) with reverse power flows forecast to exceed 50% of the substation's capacity. This is the point at which reverse power flows are likely to begin approaching capacity constraints.</p>
           </div>
         </div>
     </main>
@@ -69,29 +68,28 @@ This curtailment due to network limitations is considered ‘technical’ curtai
             <div id="popup3" class="popup">
                 <div class="popup-content">
                     <span class="close">&times;</span>
-                    <p> Info 3.</p>
+                    <p> Total annual forecast curtailment is calculated in kWh and valued at 6c/kWh (common feed-in tariff in 2023). The opportunity cost of this curtailment could tend to zero if there is no local demand, or much higher (30c/kWh).</p>
                 </div>
             </div>
         <section id="Forecast"> 
             
-            <p>Curtailment is currently limited, at less than 1% of average solar generation. However, network businesses are forecasting curtailment to increase substantially out to 2040 if no action is taken. </p>
+            <p>Curtailment is currently limited, at less than 1.5% of average solar generation. However, network businesses are forecasting curtailment to increase substantially out to 2040 if no action is taken. </p>
             <iframe src="Curtailment_T.html" width="85%" height="600px" frameborder="0"></iframe>
             
             <h2> Forecast consumer differences: Endeavour Energy <button id="infoButton5" class="info-button">&#9432;</button> </h2>
             <div id="popup5" class="popup">
                 <div class="popup-content">
                     <span class="close">&times;</span>
-                    <p>Info 5.</p>
+                    <p>Graph compares the financial impact of curtailment for the average Endeavour Energy customer, with customers on the 5% of ‘worst served’ street level substations (most extreme curtailment).</p>
                 </div>
             </div>
         
-        <p>If left unmanaged, some customers will be more affected than others. Generally, the further a solar-equipped home is from the local substation, the more it will experience voltage issues and associated curtailment. As such, fairness becomes a crucial factor in how networks manage curtailment, underlining the need to account for variation among customers.  
-Should every customer have the same level of access to connect and export solar to the grid?</p>
+        <p>If left unmanaged, some customers will be more affected than others. Generally, the further a solar-equipped home is from the local substation, the more it will experience voltage issues and associated curtailment. As such, fairness becomes an important crucial factor in how networks manage curtailment, underlining the need to account for variation among customers. Should every customer have the same level of access to connect and export solar to the grid?</p>
             <iframe src="2024Consumer.html" width="85%" height="600px" frameborder="0"></iframe>
 
 
 <section id="Adressing"> 
-        <h2> Adressing curtailment <button id="infoButton4" class="info-button">&#9432;</button> </h2>
+        <h2> Addressing curtailment <button id="infoButton4" class="info-button">&#9432;</button> </h2>
         <div id="popup4" class="popup">
             <div class="popup-content">
                 <span class="close">&times;</span>
@@ -113,8 +111,8 @@ Should every customer have the same level of access to connect and export solar 
                 </p>
             </div>
         </div>
-        <p>A range of investments can be made to manage the issue, and enable continued uptake of rooftop solar uptake by residents and businesses. However, this must be carefully considered, as the cost of such measures is spread across all energy customers, including those without solar.
-Explore the impact of adding each new strategy for network businesses to manage curtailment (see info icon for more detailed information):</p>
+        <p>A range of investments can be made to manage curtailment, and enable continued uptake of rooftop solar uptake by residents and businesses. However, this must be carefully considered, as the cost of such measures is spread across all energy customers, including those without solar.
+Explore the impact of adding each new strategy for network businesses to manage curtailment (see info icon for more info):</p>
 <ul>
   <li> - Tariff Reform</li>
   <li> - Phase Balancing</li>
